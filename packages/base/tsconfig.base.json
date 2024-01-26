@@ -1,0 +1,6 @@
+{
+  "exclude": ["node_modules", ".output", "dist"],
+  "compilerOptions": {
+    "types": ["element-plus/global", "vite/client"]
+  }
+}

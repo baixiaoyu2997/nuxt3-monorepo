@@ -1,0 +1,14 @@
+{
+  "name": "@deorderbook/home",
+  "version": "2.1.2",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run prepare:base && nuxi dev",
+    "prepare:base": "nuxi prepare ../../packages/base"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@deorderbook/base": "workspace:*"
+  }
+}

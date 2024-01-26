@@ -1,0 +1,19 @@
+{
+  "name": "deorderbook-monorepo",
+  "private": true,
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "home": "pnpm -F=@deorderbook/home run",
+    "base": "pnpm -F=@deorderbook/base run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nuxt": "^3.9.3"
+  },
+  "dependencies": {}
+}
