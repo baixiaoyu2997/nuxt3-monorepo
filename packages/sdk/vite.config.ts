@@ -16,16 +16,16 @@ export default defineConfig({
     },
     // minify: false,
     // sourcemap: true,
-    // rollupOptions: {
-    //   treeshake: false,
-    //   output: {
-    //     dir: "dist",
-    //     format: "es",
-    //     exports: "named",
-    //     entryFileNames: "[name].mjs",
-    //     preserveModules: true, // Keep directory structure and files
-    //     // preserveModulesRoot: 'src',
-    //   },
-    // },
+    rollupOptions: {
+      // treeshake: false,
+      output: {
+        dir: "dist",
+        format: "es",
+        exports: "named",
+        entryFileNames: "[name].mjs",
+        preserveModules: true, // Keep directory structure and files
+        // preserveModulesRoot: 'src',
+      },
+    },
   },
 });
