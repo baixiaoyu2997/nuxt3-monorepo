@@ -1,19 +1,21 @@
 {
-  "name": "deorderbook-monorepo",
+  "name": "test-monorepo",
   "private": true,
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "home": "pnpm -F=@deorderbook/home run",
-    "base": "pnpm -F=@deorderbook/base run"
+    "home": "pnpm -F=@test/home run",
+    "base": "pnpm -F=@test/base run",
+    "sdk": "pnpm -F=@test/sdk run"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nuxt": "^3.9.3"
+    "nuxt": "^3.9.3",
+    "vue-tsc": "^1.8.27"
   },
   "dependencies": {}
 }

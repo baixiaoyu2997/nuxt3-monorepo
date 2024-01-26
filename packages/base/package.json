@@ -1,11 +1,16 @@
 {
-  "name": "@deorderbook/base",
-  "version": "1.0.0",
+  "name": "@test/base",
+  "private": true,
+  "version": "0.0.1",
+  "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "dev": "nuxi dev"
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nuxt": "^3.9.3"
   },
-  "dependencies": {},
-  "license": "MIT"
+  "dependencies": {}
 }

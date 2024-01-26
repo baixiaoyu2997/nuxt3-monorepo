@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    // "isolatedModules": true,
+    // "sourceMap": true,
+    // "declaration": true,
+    // "strictNullChecks": true,
+    "esModuleInterop": true,
+    "strict": false
+    // "forceConsistentCasingInFileNames": true,
+    // "lib": ["esnext", "dom"],
+    // "target": "ESNext",
+    // "module": "ESNext",
+    // "moduleResolution": "Bundler",
+    // "skipLibCheck": true,
+    // "strict": false,
+    // "allowJs": true,
+    // "resolveJsonModule": true,
+    // "allowSyntheticDefaultImports": true,
+    // "types": ["node", "vite/client"]
+    // "baseUrl": ".",
+    // "paths": {
+    //   "~": ["."],
+    //   "~/*": ["./*"],
+    //   "@": ["./src"],
+    //   "@/*": ["./src/*"],
+    //   "assets": ["assets"],
+    //   "assets/*": ["assets/*"],
+    //   "public": ["public"],
+    //   "public/*": ["public/*"],
+    // },
+  }
+}

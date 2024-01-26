@@ -1,0 +1,37 @@
+{
+  "name": "@test/sdk",
+  "version": "1.5.7",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
+    },
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.mjs"
+    },
+    "./ethereum/*": "./dist/ethereum/*.mjs",
+    "./ethereum": "./dist/ethereum/index.mjs",
+    "./store/*": "./dist/store/*.mjs",
+    "./store": "./dist/store/index.mjs",
+    "./contract/*": "./dist/contract/*.mjs",
+    "./contract": "./dist/contract/index.mjs",
+    "./subgraph-api": "./dist/subgraph-api.mjs",
+    "./util/*": "./dist/util/*.mjs",
+    "./util": "./dist/util/index.mjs"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "5.0.12",
+    "vite-plugin-dts": "^3.7.2"
+  }
+}
