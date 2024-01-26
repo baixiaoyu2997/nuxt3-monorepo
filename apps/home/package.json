@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npm run prepare:base && nuxi dev",
+    "generate": "npm run prepare:base && nuxi generate",
     "prepare:base": "nuxi prepare ../../packages/base",
     "typecheck": "nuxi typecheck"
   },
