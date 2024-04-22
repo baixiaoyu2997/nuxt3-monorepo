@@ -5,7 +5,9 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "dev": "nuxt dev"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
